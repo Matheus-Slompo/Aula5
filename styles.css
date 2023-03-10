@@ -10,8 +10,11 @@ body {
   color: #ffffff;
   font-family: 'Lato', sans-serif;
   background-image: url('https://cdn.discordapp.com/attachments/1082696323800764526/1083423803767525456/image.png');
-  background-size: 100% 100%;
+  background-size: cover;
   backdrop-filter: blur(20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .general {
@@ -124,7 +127,7 @@ body {
 .air-quality {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 32px;
 
@@ -140,6 +143,7 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
+  padding-top: 18px;
 }
 
 .air-quality .leaf span {
